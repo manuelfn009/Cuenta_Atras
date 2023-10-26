@@ -1,6 +1,6 @@
 //declaracion de las letiables que se van a usar de estaciones
     let verano = new Date(2024, 6, 21);
-    let invierno = new Date(2023, 12, 21);
+    let invierno = new Date(2023, 11, 21);
     let otoño = new Date(2023, 8, 23);
     let primavera = new Date(2024, 3, 21);
 
@@ -47,11 +47,11 @@ let now = new Date();
       if(now >= verano){
         imagen.src="verano.png";
       }else if(now >= invierno){
-        imagen.src="invierno.png";
+        imagen.src="invierno.jpeg";
       }else if(now >= otoño){
         imagen.src="otoño.png";
       }else if(now >= primavera){
-        imagen.src="primavera.png";
+        imagen.src="primavera.jpg";
       }else if(now === cumpleanio){
         imagen.src="cumpleaños.png";
       }
